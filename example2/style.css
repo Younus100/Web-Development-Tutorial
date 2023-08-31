@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+}
+
+.box {
+  width: 200px;
+  display: flex;
+  flex: 1 0 50px;
+  height: 200px;
+  font-size: 3rem;
+  background-color: lightblue;
+  border: 2px darkblue solid;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 0;
+}
+
+.flex {
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.box:nth-child(2) {
+  order: 4;
+}
